@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "text": "Description of image is here image1",
+      "link": "/image/About.jpg"
+    },
+    {
+      "text": "Description of image is here image2",
+      "link": "/image/about.jpg"
+    },
+    {
+      "text": "Description of image is here image3",
+      "link": "/image/First.jpg"
+    },
+    {
+      "text": "Description of image is here image4",
+      "link": "/image/HeroImage.png"
+    }
+  ]
+}
