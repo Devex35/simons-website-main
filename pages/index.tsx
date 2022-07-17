@@ -4,7 +4,9 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Body from '../components/Body'
-import Contact from "../components/Contact"
+import Contact from '../components/Contact'
+import Services from '../components/Services'
+import About from '../components/About'
 
 const Home: NextPage = () => {
   return (
@@ -14,8 +16,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <About />
       <Body />
-      <Contact/>
+      <Services />
+      <Contact />
     </div>
   )
 }
