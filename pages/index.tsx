@@ -7,6 +7,8 @@ import Body from '../components/Body'
 import Contact from '../components/Contact'
 import Services from '../components/Services'
 import About from '../components/About'
+import Homepage from '../components/Homepage'
+import Navbar from '../components/Navbar'
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +17,8 @@ const Home: NextPage = () => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero />
+      {/* <Hero /> */}
+      <Homepage />
       <About />
       <Body />
       <Services />
