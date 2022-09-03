@@ -5,7 +5,10 @@ import Link from 'next/link'
 
 function About() {
   return (
-    <div className="min-w-7xl my-24 flex flex-col justify-between gap-y-10 md:flex-row">
+    <div
+      id="about"
+      className="min-w-7xl my-24 flex flex-col justify-between gap-y-10 md:flex-row"
+    >
       <div className="mx-20">
         <Image
           src={AboutImage}
@@ -16,16 +19,11 @@ function About() {
         />
       </div>
       <div className="mx-10 md:mr-20">
-        <h2 className="text-base font-semibold text-indigo-500">About Us</h2>
+        <h2 className="text-base font-semibold text-indigo-500">About Me</h2>
         <p className="mt-2 mb-5 text-5xl font-bold text-gray-900 sm:text-4xl">
           Let's Know each other More closly
         </p>
-        <p className="text-sm text-gray-400  md:text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab
-          perspiciatis minus. Qui ducimus quae expedita quod aliquam laborum
-          placeat, blanditiis possimus facere asperiores ut quas hic eos nihil
-          repudiandae.
-        </p>
+        <p className="text-sm text-gray-400  md:text-base"></p>
         <p className="text-sm text-gray-400 md:text-base">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab
           perspiciatis minus. Qui ducimus quae expedita quod aliquam laborum

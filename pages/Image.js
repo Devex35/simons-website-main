@@ -57,7 +57,7 @@ function Images() {
 
   return (
     <div>
-      <div className="wrapper">
+      <div className="wrapper m-0">
         {data.data.map((item, index) => (
           <div key={index} className="wrapper-images">
             <img

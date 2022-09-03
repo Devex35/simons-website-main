@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Example() {
   return (
-    <div className="relative mt-5 overflow-hidden bg-white">
+    <div id="gallery" className="relative mt-5 overflow-hidden bg-white">
       <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
